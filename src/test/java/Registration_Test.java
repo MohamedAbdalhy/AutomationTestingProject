@@ -89,7 +89,7 @@ registrationElm.returnToStore(driver).click();
 
  @AfterMethod
  public void closeBrowser(){
-//    driver.quit();
+  driver.quit();
     }
 
 
