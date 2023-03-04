@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f685c1b-b3fa-4661-9964-d911b2f55548" name="Changes" comment="" />
+    <list default="true" id="0f685c1b-b3fa-4661-9964-d911b2f55548" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SearchElm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Search_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,24 +50,12 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.NavigationBar_Test.item3_ramadan">
+  <component name="RunManager" selected="TestNG.Search_Test.search_Test3">
     <configuration name="NavigationBar_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTestingProject" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NavigationBar_Test" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NavigationBar_Test.item2_backpackItem" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationTestingProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NavigationBar_Test" />
-      <option name="METHOD_NAME" value="item2_backpackItem" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -82,11 +74,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NavigationBar_Test.item5_sketchbook" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Search_Test.search_Test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTestingProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NavigationBar_Test" />
-      <option name="METHOD_NAME" value="item5_sketchbook" />
+      <option name="MAIN_CLASS_NAME" value="Search_Test" />
+      <option name="METHOD_NAME" value="search_Test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -94,11 +86,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NavigationBar_Test.item8_makeup" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Search_Test.search_Test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTestingProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NavigationBar_Test" />
-      <option name="METHOD_NAME" value="item8_makeup" />
+      <option name="MAIN_CLASS_NAME" value="Search_Test" />
+      <option name="METHOD_NAME" value="search_Test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Search_Test.search_Test3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationTestingProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Search_Test" />
+      <option name="METHOD_NAME" value="search_Test3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -108,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Search_Test.search_Test3" />
+        <item itemvalue="TestNG.Search_Test.search_Test2" />
+        <item itemvalue="TestNG.Search_Test.search_Test1" />
         <item itemvalue="TestNG.NavigationBar_Test.item3_ramadan" />
         <item itemvalue="TestNG.NavigationBar_Test" />
-        <item itemvalue="TestNG.NavigationBar_Test.item5_sketchbook" />
-        <item itemvalue="TestNG.NavigationBar_Test.item8_makeup" />
-        <item itemvalue="TestNG.NavigationBar_Test.item2_backpackItem" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +169,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Search_Test.java</url>
+          <line>25</line>
+          <properties class="Search_Test" method="search_Test1">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Registration_Test.java</url>
