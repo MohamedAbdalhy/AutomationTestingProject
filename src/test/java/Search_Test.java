@@ -57,6 +57,18 @@ Thread.sleep(2000);
         Assert.assertEquals(actResult,expResult);
     }
 
+    @Test
+    public void search_Test4() throws InterruptedException {
+        // validate search function With Valid specific Product in the store (Naruto Notebook)
+        searchElm.searchINPUT(driver).sendKeys("Naruto Notebook");
+        searchElm.searchINPUT(driver).sendKeys(Keys.ENTER);
+        Thread.sleep(2000);
+        soft.assertTrue(driver.findElement(By.cssSelector("#pt-pageContent > div > div > div > div > div")).isDisplayed());
+        String actResult = driver.findElement(By.cssSelector("#pt-pageContent > div > div > div > div > div > div > div > div:nth-child(2) > h2 > a")).getText();
+        String expResult = "Naruto Notebook";
+        soft.assertEquals(actResult,expResult);
+    }
+
     @AfterMethod
 public void closeWeb (){
         driver.quit();
