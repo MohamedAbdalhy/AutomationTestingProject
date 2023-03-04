@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f685c1b-b3fa-4661-9964-d911b2f55548" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Regression.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NavigationBarElm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NavigationBar_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LoginElm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LoginElm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Login_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Login_Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="0f685c1b-b3fa-4661-9964-d911b2f55548" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
