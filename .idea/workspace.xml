@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f685c1b-b3fa-4661-9964-d911b2f55548" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CartElm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Cart_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductElm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductElm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Product_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Product_Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,12 +51,12 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.Product_Test.product_Count_Test7">
-    <configuration name="Product_Test.product_ADDCart_Test6" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Cart_Test.goToCheckOut_Selections_afterAddToCart_Test3">
+    <configuration name="Cart_Test.delete_afterAddToCart_Test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTestingProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Product_Test" />
-      <option name="METHOD_NAME" value="product_ADDCart_Test6" />
+      <option name="MAIN_CLASS_NAME" value="Cart_Test" />
+      <option name="METHOD_NAME" value="delete_afterAddToCart_Test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -63,11 +64,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Product_Test.product_Count_Test4" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Cart_Test.goToCheckOut_Selections_afterAddToCart_Test3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTestingProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Product_Test" />
-      <option name="METHOD_NAME" value="product_Count_Test4" />
+      <option name="MAIN_CLASS_NAME" value="Cart_Test" />
+      <option name="METHOD_NAME" value="goToCheckOut_Selections_afterAddToCart_Test3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -75,11 +76,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Product_Test.product_Count_Test5" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Cart_Test.shipping_Selection_afterAddToCart_Test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTestingProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Product_Test" />
-      <option name="METHOD_NAME" value="product_Count_Test5" />
+      <option name="MAIN_CLASS_NAME" value="Cart_Test" />
+      <option name="METHOD_NAME" value="shipping_Selection_afterAddToCart_Test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -87,11 +88,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Product_Test.product_Count_Test6" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Cart_Test.shipping_Selections_afterAddToCart_Test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTestingProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Product_Test" />
-      <option name="METHOD_NAME" value="product_Count_Test6" />
+      <option name="MAIN_CLASS_NAME" value="Cart_Test" />
+      <option name="METHOD_NAME" value="shipping_Selections_afterAddToCart_Test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -99,11 +100,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Product_Test.product_Count_Test7" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Cart_Test.shipping_Selections_afterAddToCart_Test3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTestingProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Product_Test" />
-      <option name="METHOD_NAME" value="product_Count_Test7" />
+      <option name="MAIN_CLASS_NAME" value="Cart_Test" />
+      <option name="METHOD_NAME" value="shipping_Selections_afterAddToCart_Test3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Product_Test.product_Count_Test7" />
-        <item itemvalue="TestNG.Product_Test.product_Count_Test6" />
-        <item itemvalue="TestNG.Product_Test.product_ADDCart_Test6" />
-        <item itemvalue="TestNG.Product_Test.product_Count_Test5" />
-        <item itemvalue="TestNG.Product_Test.product_Count_Test4" />
+        <item itemvalue="TestNG.Cart_Test.goToCheckOut_Selections_afterAddToCart_Test3" />
+        <item itemvalue="TestNG.Cart_Test.shipping_Selections_afterAddToCart_Test3" />
+        <item itemvalue="TestNG.Cart_Test.shipping_Selections_afterAddToCart_Test2" />
+        <item itemvalue="TestNG.Cart_Test.shipping_Selection_afterAddToCart_Test2" />
+        <item itemvalue="TestNG.Cart_Test.delete_afterAddToCart_Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -153,33 +154,10 @@
           </properties>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/Product_Test.java</url>
-          <line>44</line>
-          <properties class="Product_Test" method="product_Components_Test2">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/Product_Test.java</url>
-          <line>90</line>
-          <properties class="Product_Test" method="product_Count_Test6">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Login_Test.java</url>
           <line>22</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Product_Test.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

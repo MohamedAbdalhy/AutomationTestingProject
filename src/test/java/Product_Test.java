@@ -1,4 +1,3 @@
-import org.example.LoginElm;
 import org.example.ProductElm;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -55,7 +54,7 @@ soft.assertTrue(productElm.productName(driver).isDisplayed());
 
     @Test
     public void product_Count_Test3 ()  {
-        // Validated Plus Count Click
+        // Validated Plus Count Click is work(in Range = 5)
         productElm.ramdanBoxHeader(driver).click();
         productElm.ramdanBox(driver).click();
         for (int i = 0 ; i<=2 ; i++) {
@@ -65,7 +64,7 @@ soft.assertTrue(productElm.productName(driver).isDisplayed());
         }
         @Test
     public void product_Count_Test4 ()  {
-        // Validated The Mins Product Count
+        // Validated The less Product Count
         productElm.ramdanBoxHeader(driver).click();
         productElm.ramdanBox(driver).click();
         for (int i = 0 ; i<=2 ; i++) {
@@ -79,7 +78,7 @@ soft.assertTrue(productElm.productName(driver).isDisplayed());
 
     @Test
     public void product_Count_Test5 ()  {
-        // Validated The Number Of Count
+        // Validated The Number Of Count with number above range
         productElm.ramdanBoxHeader(driver).click();
         productElm.ramdanBox(driver).click();
         for (int i = 0 ; i<=6 ; i++) {
@@ -88,7 +87,7 @@ soft.assertTrue(productElm.productName(driver).isDisplayed());
         Assert.assertEquals(productElm.countResult(driver).getAttribute("value"),"5");
     }
     @Test
-    public void product_Count_Test6 ()  {
+    public void product_Count_Test6()  {
         // Validated The Number Of Count With Manule Send
         productElm.ramdanBoxHeader(driver).click();
         productElm.ramdanBox(driver).click();
@@ -99,7 +98,7 @@ soft.assertTrue(productElm.productName(driver).isDisplayed());
     }
     @Test
     public void product_Count_Test7 ()  {
-        // Validated The Number Of Count With Manule Send (Text)
+        // Validated The Number Of Count With Manual Send (Text)
         productElm.ramdanBoxHeader(driver).click();
         productElm.ramdanBox(driver).click();
         productElm.countResult(driver).clear();
@@ -110,7 +109,7 @@ soft.assertTrue(productElm.productName(driver).isDisplayed());
 
     @Test
     public void product_ADDCart_Test8 ()  {
-        // Validated The Number Of Count
+        // Validated integration data between product page and cart
         productElm.ramdanBoxHeader(driver).click();
         productElm.ramdanBox(driver).click();
         for (int i = 0 ; i<=2; i++) {
@@ -126,6 +125,6 @@ soft.assertTrue(productElm.productName(driver).isDisplayed());
 
     @AfterMethod
     public void closeBrowser(){
-    //driver.quit();
+    driver.quit();
     }
 }
