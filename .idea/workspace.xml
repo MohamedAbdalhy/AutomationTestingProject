@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f685c1b-b3fa-4661-9964-d911b2f55548" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InformationElm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Information_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ConfirmShippingElm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ConfirmShipping_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Regression.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Cart_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Cart_Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,19 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Information_Test.fillIn_All_Information_Form">
+  <component name="RunManager" selected="TestNG.ConfirmShipping_Test.fillIn_All_Information_Form">
+    <configuration name="ConfirmShipping_Test.fillIn_All_Information_Form" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationTestingProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConfirmShipping_Test" />
+      <option name="METHOD_NAME" value="fillIn_All_Information_Form" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Information_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTestingProject" />
       <option name="PACKAGE_NAME" value="" />
@@ -88,18 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Information_Test.fillIn_withInvalidEmail_Information_Form" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationTestingProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Information_Test" />
-      <option name="METHOD_NAME" value="fillIn_withInvalidEmail_Information_Form" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Information_Test.verifay" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTestingProject" />
       <option name="PACKAGE_NAME" value="" />
@@ -114,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ConfirmShipping_Test.fillIn_All_Information_Form" />
         <item itemvalue="TestNG.Information_Test.fillIn_All_Information_Form" />
         <item itemvalue="TestNG.Information_Test.fillIn_WithoutLastName_Information_Form" />
         <item itemvalue="TestNG.Information_Test.verifay" />
         <item itemvalue="TestNG.Information_Test" />
-        <item itemvalue="TestNG.Information_Test.fillIn_withInvalidEmail_Information_Form" />
       </list>
     </recent_temporary>
   </component>
