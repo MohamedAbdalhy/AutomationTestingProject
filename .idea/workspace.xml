@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f685c1b-b3fa-4661-9964-d911b2f55548" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CartElm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Cart_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InformationElm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Information_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Product_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Product_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Regression.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Cart_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Cart_Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,22 +42,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Testing carrer/ITI/Auto Project/AutomationTestingProject&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/user/Desktop/Testing carrer/ITI/Auto Project/AutomationTestingProject",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.Cart_Test.goToCheckOut_Selections_afterAddToCart_Test3">
-    <configuration name="Cart_Test.delete_afterAddToCart_Test2" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="TestNG.Information_Test.fillIn_All_Information_Form">
+    <configuration name="Information_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTestingProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Cart_Test" />
-      <option name="METHOD_NAME" value="delete_afterAddToCart_Test2" />
+      <option name="MAIN_CLASS_NAME" value="Information_Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Information_Test.fillIn_All_Information_Form" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationTestingProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Information_Test" />
+      <option name="METHOD_NAME" value="fillIn_All_Information_Form" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -64,11 +76,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cart_Test.goToCheckOut_Selections_afterAddToCart_Test3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Information_Test.fillIn_WithoutLastName_Information_Form" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTestingProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Cart_Test" />
-      <option name="METHOD_NAME" value="goToCheckOut_Selections_afterAddToCart_Test3" />
+      <option name="MAIN_CLASS_NAME" value="Information_Test" />
+      <option name="METHOD_NAME" value="fillIn_WithoutLastName_Information_Form" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -76,11 +88,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cart_Test.shipping_Selection_afterAddToCart_Test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Information_Test.fillIn_withInvalidEmail_Information_Form" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTestingProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Cart_Test" />
-      <option name="METHOD_NAME" value="shipping_Selection_afterAddToCart_Test2" />
+      <option name="MAIN_CLASS_NAME" value="Information_Test" />
+      <option name="METHOD_NAME" value="fillIn_withInvalidEmail_Information_Form" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -88,23 +100,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cart_Test.shipping_Selections_afterAddToCart_Test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Information_Test.verifay" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTestingProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Cart_Test" />
-      <option name="METHOD_NAME" value="shipping_Selections_afterAddToCart_Test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Cart_Test.shipping_Selections_afterAddToCart_Test3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationTestingProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Cart_Test" />
-      <option name="METHOD_NAME" value="shipping_Selections_afterAddToCart_Test3" />
+      <option name="MAIN_CLASS_NAME" value="Information_Test" />
+      <option name="METHOD_NAME" value="verifay" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Cart_Test.goToCheckOut_Selections_afterAddToCart_Test3" />
-        <item itemvalue="TestNG.Cart_Test.shipping_Selections_afterAddToCart_Test3" />
-        <item itemvalue="TestNG.Cart_Test.shipping_Selections_afterAddToCart_Test2" />
-        <item itemvalue="TestNG.Cart_Test.shipping_Selection_afterAddToCart_Test2" />
-        <item itemvalue="TestNG.Cart_Test.delete_afterAddToCart_Test2" />
+        <item itemvalue="TestNG.Information_Test.fillIn_All_Information_Form" />
+        <item itemvalue="TestNG.Information_Test.fillIn_WithoutLastName_Information_Form" />
+        <item itemvalue="TestNG.Information_Test.verifay" />
+        <item itemvalue="TestNG.Information_Test" />
+        <item itemvalue="TestNG.Information_Test.fillIn_withInvalidEmail_Information_Form" />
       </list>
     </recent_temporary>
   </component>

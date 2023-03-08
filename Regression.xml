@@ -6,6 +6,9 @@
             <class name="Login_Test"/>
             <class name="NavigationBar_Test"/>
             <class name="Search_Test"/>
+            <class name="Information_Test"/>
+            <class name="Cart_Test"/>
+            <class name="Product_Test"/>
         </classes>
     </test>
 </suite>

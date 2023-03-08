@@ -184,6 +184,6 @@ public void afterAddToCart_Test1() throws InterruptedException {
 
     @AfterMethod
     public void closeBrowser(){
-        //driver.quit();
+        driver.quit();
     }
 }
