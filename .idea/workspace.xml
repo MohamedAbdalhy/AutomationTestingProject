@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f685c1b-b3fa-4661-9964-d911b2f55548" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ConfirmShippingElm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ConfirmShipping_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Regression.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/Testing carrer/ITI/Auto Project/AutomationTestingProject",
+    "last_opened_file_path": "C:/Users/user/Desktop/Testing carrer/ITI/Auto Project/API-Project",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"

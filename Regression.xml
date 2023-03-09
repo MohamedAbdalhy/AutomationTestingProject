@@ -9,6 +9,7 @@
             <class name="Information_Test"/>
             <class name="Cart_Test"/>
             <class name="Product_Test"/>
+            <class name="ConfirmShipping_Test"/>
         </classes>
     </test>
 </suite>
