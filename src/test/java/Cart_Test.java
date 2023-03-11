@@ -25,7 +25,7 @@ public class Cart_Test {
 
     }
 
-@Test
+@Test (priority = 1)
     public void emptyCartComponents (){
         //Validate EmptyCart UI and Components are Set in Page
     driver.navigate().to("https://mofkera.com/cart");
@@ -34,7 +34,7 @@ public class Cart_Test {
     Assert.assertTrue(cartElm.emptyShoppingButton(driver).isDisplayed());
 }
 
-@Test
+@Test (priority = 1)
 public void emptyCartButton(){
         // Validate "Continue Shopping" button is Work and move to Home Page
     driver.navigate().to("https://mofkera.com/cart");
@@ -43,7 +43,7 @@ public void emptyCartButton(){
 }
 
 
-@Test
+@Test (priority = 2)
 public void afterAddToCart_Test1() throws InterruptedException {
         //Validate Integration Between Product and cart is movement did true
 
@@ -60,7 +60,7 @@ public void afterAddToCart_Test1() throws InterruptedException {
     Assert.assertEquals(productName , cartElm.productCartName(driver).getText());
 
 }
-    @Test
+    @Test (priority = 2)
     public void clear_afterAddToCart_Test2() throws InterruptedException {
         //Validate Integration Between Product and cart is movement did true
 
@@ -77,7 +77,7 @@ public void afterAddToCart_Test1() throws InterruptedException {
         Assert.assertEquals(cartElm.emptyCartMassage(driver).getText(),"Shopping cart is empty");
         Assert.assertTrue(cartElm.emptyShoppingButton(driver).isDisplayed());
     }
-    @Test
+    @Test (priority = 2)
     public void plus_afterAddToCart_Test3() throws InterruptedException {
         //Validate plus and update button Between Product and cart is movement did true
 

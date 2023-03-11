@@ -1,0 +1,56 @@
+<suite name="Suite1" verbose="1" >
+
+    <test name="Regression1">
+        <classes>
+            <class name="Registration_Test">
+                <methods>
+                    <include name="validCase"/>
+                    <include name="invalidCase01"/>
+                </methods>
+            </class>
+            <class name="Cart_Test">
+                <methods>
+                    <include name="emptyCartComponents"/>
+                    <include name="afterAddToCart_Test1"/>
+                </methods>
+            </class>
+            <class name="ConfirmShipping_Test">
+                <methods>
+                    <include name="fillIn_All_Information_Form"/>
+                </methods>
+            </class>
+            <class name="Information_Test">
+                <methods>
+                    <include name="fillIn_All_Information_Form"/>
+                    <include name="fillIn_withoutPhone_Information_Form"/>
+                </methods>
+            </class>
+            <class name="Login_Test">
+                <methods>
+                    <include name="validLogin"/>
+                    <include name="invalidLogin1"/>
+                </methods>
+            </class>
+            <class name="NavigationBar_Test">
+                <methods>
+                    <include name="openLoginPage"/>
+                    <include name="item4_notebook"/>
+                </methods>
+            </class>
+            <class name="Product_Test">
+                <methods>
+                    <include name="product_Components_Test1"/>
+                    <include name=" product_Count_Test4"/>
+                </methods>
+            </class>
+            <class name="Search_Test">
+                <methods>
+                    <include name="search_Test1"/>
+                    <include name="search_Test2"/>
+                </methods>
+            </class>
+
+
+        </classes>
+    </test>
+</suite>

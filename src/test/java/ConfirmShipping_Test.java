@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -50,6 +51,12 @@ public class ConfirmShipping_Test {
       confirmShippingElm.toPay(driver).click();
         Thread.sleep(4000);
       Assert.assertTrue(confirmShippingElm.ChosePaymentMethod(driver).isDisplayed());
+    }
+    @AfterMethod
+    public void closeweb(){
+       driver.quit();
+
+
     }
     }
 
