@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f685c1b-b3fa-4661-9964-d911b2f55548" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Demo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Cart_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Cart_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ConfirmShipping_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ConfirmShipping_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Information_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Information_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Login_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Login_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NavigationBar_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NavigationBar_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Product_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Product_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Registration_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Registration_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Search_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Search_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Suite1/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite1/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +56,11 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Testing carrer/ITI/Auto Project/AutomationTestingProject&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C:/Users/user/Desktop/Testing carrer/ITI/Auto Project/AutomationTestingProject/Demo.xml">
+  <component name="RunManager" selected="TestNG.Information_Test.fillIn_withoutPhone_Information_Form">
     <configuration name="C:/Users/user/Desktop/Testing carrer/ITI/Auto Project/AutomationTestingProject/Demo.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTestingProject" />
       <shortenClasspath name="NONE" />
@@ -74,11 +83,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfirmShipping_Test.fillIn_All_Information_Form" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Cart_Test.emptyCartComponents" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTestingProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ConfirmShipping_Test" />
-      <option name="METHOD_NAME" value="fillIn_All_Information_Form" />
+      <option name="MAIN_CLASS_NAME" value="Cart_Test" />
+      <option name="METHOD_NAME" value="emptyCartComponents" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -98,11 +107,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Information_Test.fillIn_WithoutLastName_Information_Form" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Information_Test.fillIn_withoutPhone_Information_Form" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTestingProject" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Information_Test" />
-      <option name="METHOD_NAME" value="fillIn_WithoutLastName_Information_Form" />
+      <option name="METHOD_NAME" value="fillIn_withoutPhone_Information_Form" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -110,11 +119,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Information_Test.verifay" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Search_Test.search_Test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTestingProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Information_Test" />
-      <option name="METHOD_NAME" value="verifay" />
+      <option name="MAIN_CLASS_NAME" value="Search_Test" />
+      <option name="METHOD_NAME" value="search_Test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -123,19 +132,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.Cart_Test.emptyCartComponents" />
+      <item itemvalue="TestNG.Information_Test.fillIn_withoutPhone_Information_Form" />
+      <item itemvalue="TestNG.Search_Test.search_Test1" />
       <item itemvalue="TestNG.C:/Users/user/Desktop/Testing carrer/ITI/Auto Project/AutomationTestingProject/Demo.xml" />
-      <item itemvalue="TestNG.ConfirmShipping_Test.fillIn_All_Information_Form" />
       <item itemvalue="TestNG.Information_Test.fillIn_All_Information_Form" />
-      <item itemvalue="TestNG.Information_Test.fillIn_WithoutLastName_Information_Form" />
-      <item itemvalue="TestNG.Information_Test.verifay" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/user/Desktop/Testing carrer/ITI/Auto Project/AutomationTestingProject/Demo.xml" />
-        <item itemvalue="TestNG.ConfirmShipping_Test.fillIn_All_Information_Form" />
+        <item itemvalue="TestNG.Information_Test.fillIn_withoutPhone_Information_Form" />
         <item itemvalue="TestNG.Information_Test.fillIn_All_Information_Form" />
-        <item itemvalue="TestNG.Information_Test.fillIn_WithoutLastName_Information_Form" />
-        <item itemvalue="TestNG.Information_Test.verifay" />
+        <item itemvalue="TestNG.Search_Test.search_Test1" />
+        <item itemvalue="TestNG.C:/Users/user/Desktop/Testing carrer/ITI/Auto Project/AutomationTestingProject/Demo.xml" />
+        <item itemvalue="TestNG.Cart_Test.emptyCartComponents" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +164,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/NavigationBar_Test.java</url>
-          <line>23</line>
+          <line>24</line>
           <properties class="NavigationBar_Test" method="item1_Planner">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -164,17 +173,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/Search_Test.java</url>
-          <line>25</line>
+          <line>26</line>
           <properties class="Search_Test" method="search_Test1">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Login_Test.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="8" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Information_Test.java</url>
+          <line>23</line>
+          <properties class="Information_Test" method="fillIn_All_Information_Form">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

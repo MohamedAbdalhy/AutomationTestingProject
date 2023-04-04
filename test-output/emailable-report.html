@@ -25,101 +25,556 @@ td,th {border:1px solid #009;padding:.25em .5em}
 <body>
 <table cellspacing="0" cellpadding="0" class="testOverview">
 <tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em"><a href="#t1">Regression1</a></td><td class="numi">9</td><td class="numi">9</td><td class="numi">0</td><td class="numi_attn">4</td><td class="numi">153.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">Regression1</a></td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">13</td><td class="numi">0</td><td class="numi">14.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr id="t1"><th colspan="5">Regression1 &#8212; failed</th></tr>
-<tr class="failedodd"><td>Registration_Test</td><td><a href="#m1"><b>invalidCase01</b>  </a></td><td class="numi">1</td><td>1678565576784</td><td class="numi">2453</td></tr>
-<tr class="failedeven"><td rowspan="2">Login_Test</td><td><a href="#m2"><b>validLogin</b>  </a></td><td class="numi">1</td><td>1678565667878</td><td class="numi">7457</td></tr><tr class="failedeven"><td><a href="#m3"><b>invalidLogin1</b>  </a></td><td class="numi">1</td><td>1678565655601</td><td class="numi">7455</td></tr>
-<tr class="failedodd"><td>NavigationBar_Test</td><td><a href="#m4"><b>item4_notebook</b>  </a></td><td class="numi">1</td><td>1678565680463</td><td class="numi">3448</td></tr>
-<tr><th colspan="5">Regression1 &#8212; passed</th></tr>
-<tr class="passedodd"><td>Information_Test</td><td><a href="#m5"><b>fillIn_withoutPhone_Information_Form</b>  </a></td><td class="numi">1</td><td>1678565646866</td><td class="numi">4115</td></tr>
-<tr class="passedeven"><td>Registration_Test</td><td><a href="#m6"><b>validCase</b>  </a></td><td class="numi">1</td><td>1678565583702</td><td class="numi">2766</td></tr>
-<tr class="passedodd"><td>Search_Test</td><td><a href="#m7"><b>search_Test2</b>  </a></td><td class="numi">1</td><td>1678565717819</td><td class="numi">4982</td></tr>
-<tr class="passedeven"><td>Information_Test</td><td><a href="#m8"><b>fillIn_All_Information_Form</b>  </a></td><td class="numi">1</td><td>1678565637485</td><td class="numi">4087</td></tr>
-<tr class="passedodd"><td>Cart_Test</td><td><a href="#m9"><b>emptyCartComponents</b>  </a></td><td class="numi">1</td><td>1678565591471</td><td class="numi">631</td></tr>
-<tr class="passedeven"><td>Product_Test</td><td><a href="#m10"><b>product_Components_Test1</b>  </a></td><td class="numi">1</td><td>1678565689055</td><td class="numi">6502</td></tr>
-<tr class="passedodd"><td>Cart_Test</td><td><a href="#m11"><b>afterAddToCart_Test1</b>  </a></td><td class="numi">1</td><td>1678565600959</td><td class="numi">12559</td></tr>
-<tr class="passedeven"><td>ConfirmShipping_Test</td><td><a href="#m12"><b>fillIn_All_Information_Form</b>  </a></td><td class="numi">1</td><td>1678565618934</td><td class="numi">12822</td></tr>
-<tr class="passedodd"><td>Search_Test</td><td><a href="#m13"><b>search_Test1</b>  </a></td><td class="numi">1</td><td>1678565701398</td><td class="numi">10616</td></tr>
+<tr id="t1"><th colspan="5">Regression1 &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td>Login_Test</td><td><a href="#m1"><b>openLoginPage</b>  </a></td><td class="numi">1</td><td>1678876631944</td><td class="numi">1484</td></tr>
+<tr class="failedeven"><td>ConfirmShipping_Test</td><td><a href="#m2"><b>openLoginPage</b>  </a></td><td class="numi">1</td><td>1678876629089</td><td class="numi">1408</td></tr>
+<tr class="failedodd"><td>Cart_Test</td><td><a href="#m3"><b>openCartPage</b>  </a></td><td class="numi">1</td><td>1678876627545</td><td class="numi">1536</td></tr>
+<tr class="failedeven"><td>Information_Test</td><td><a href="#m4"><b>openLoginPage</b>  </a></td><td class="numi">1</td><td>1678876630503</td><td class="numi">1432</td></tr>
+<tr class="failedodd"><td>Product_Test</td><td><a href="#m5"><b>openLoginPage</b>  </a></td><td class="numi">1</td><td>1678876635022</td><td class="numi">1819</td></tr>
+<tr class="failedeven"><td>Login_Test</td><td><a href="#m6"><b>openLoginPage</b>  </a></td><td class="numi">1</td><td>1678876631944</td><td class="numi">1484</td></tr>
+<tr class="failedodd"><td>Registration_Test</td><td><a href="#m7"><b>openBrowser</b>  </a></td><td class="numi">1</td><td>1678876624377</td><td class="numi">3144</td></tr>
+<tr class="failedeven"><td>Cart_Test</td><td><a href="#m8"><b>openCartPage</b>  </a></td><td class="numi">1</td><td>1678876627545</td><td class="numi">1536</td></tr>
+<tr class="failedodd"><td>Information_Test</td><td><a href="#m9"><b>openLoginPage</b>  </a></td><td class="numi">1</td><td>1678876630503</td><td class="numi">1432</td></tr>
+<tr class="failedeven"><td>Search_Test</td><td><a href="#m10"><b>openLoginPage</b>  </a></td><td class="numi">1</td><td>1678876636847</td><td class="numi">1994</td></tr>
+<tr class="failedodd"><td>Registration_Test</td><td><a href="#m11"><b>openBrowser</b>  </a></td><td class="numi">1</td><td>1678876624377</td><td class="numi">3144</td></tr>
+<tr class="failedeven"><td>NavigationBar_Test</td><td><a href="#m12"><b>openLoginPage</b>  </a></td><td class="numi">1</td><td>1678876633435</td><td class="numi">1582</td></tr>
+<tr class="failedodd"><td>Search_Test</td><td><a href="#m13"><b>openLoginPage</b>  </a></td><td class="numi">1</td><td>1678876636847</td><td class="numi">1994</td></tr>
+<tr><th colspan="5">Regression1 &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="2">Login_Test</td><td><a href="#m14"><b>openLoginPage</b>  </a></td><td class="numi">1</td><td>1678876633433</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m15"><b>closeWebPage</b>  </a></td><td class="numi">2</td><td>1678876633432</td><td class="numi">2</td></tr>
+<tr class="skippedeven"><td>Cart_Test</td><td><a href="#m16"><b>openCartPage</b>  </a></td><td class="numi">1</td><td>1678876629085</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td>Search_Test</td><td><a href="#m17"><b>closeWeb</b>  </a></td><td class="numi">2</td><td>1678876638845</td><td class="numi">2</td></tr>
+<tr class="skippedeven"><td>Information_Test</td><td><a href="#m18"><b>openLoginPage</b>  </a></td><td class="numi">1</td><td>1678876631941</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td>NavigationBar_Test</td><td><a href="#m19"><b>closeWeb</b>  </a></td><td class="numi">1</td><td>1678876635021</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="2">Login_Test</td><td><a href="#m20"><b>openLoginPage</b>  </a></td><td class="numi">1</td><td>1678876633433</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m21"><b>closeWebPage</b>  </a></td><td class="numi">2</td><td>1678876633432</td><td class="numi">2</td></tr>
+<tr class="skippedodd"><td>Information_Test</td><td><a href="#m22"><b>closeBrowser</b>  </a></td><td class="numi">2</td><td>1678876631940</td><td class="numi">3</td></tr>
+<tr class="skippedeven"><td>Product_Test</td><td><a href="#m23"><b>closeBrowser</b>  </a></td><td class="numi">1</td><td>1678876636846</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td>Registration_Test</td><td><a href="#m24"><b>openBrowser</b>  </a></td><td class="numi">1</td><td>1678876627541</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td>Cart_Test</td><td><a href="#m25"><b>openCartPage</b>  </a></td><td class="numi">1</td><td>1678876629085</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td>Registration_Test</td><td><a href="#m26"><b>closeBrowser</b>  </a></td><td class="numi">2</td><td>1678876627536</td><td class="numi">7</td></tr>
+<tr class="skippedeven"><td>Information_Test</td><td><a href="#m27"><b>openLoginPage</b>  </a></td><td class="numi">1</td><td>1678876631941</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td>Search_Test</td><td><a href="#m28"><b>closeWeb</b>  </a></td><td class="numi">2</td><td>1678876638845</td><td class="numi">2</td></tr>
+<tr class="skippedeven"><td>Information_Test</td><td><a href="#m29"><b>closeBrowser</b>  </a></td><td class="numi">2</td><td>1678876631940</td><td class="numi">3</td></tr>
+<tr class="skippedodd"><td>Registration_Test</td><td><a href="#m30"><b>closeBrowser</b>  </a></td><td class="numi">2</td><td>1678876627536</td><td class="numi">7</td></tr>
+<tr class="skippedeven"><td>Search_Test</td><td><a href="#m31"><b>openLoginPage</b>  </a></td><td class="numi">1</td><td>1678876638846</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td>Registration_Test</td><td><a href="#m32"><b>openBrowser</b>  </a></td><td class="numi">1</td><td>1678876627541</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="2">Cart_Test</td><td><a href="#m33"><b>closeBrowser</b>  </a></td><td class="numi">2</td><td>1678876629084</td><td class="numi">3</td></tr><tr class="skippedeven"><td><a href="#m34"><b>closeBrowser</b>  </a></td><td class="numi">2</td><td>1678876629084</td><td class="numi">3</td></tr>
+<tr class="skippedodd"><td>Search_Test</td><td><a href="#m35"><b>openLoginPage</b>  </a></td><td class="numi">1</td><td>1678876638846</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td>ConfirmShipping_Test</td><td><a href="#m36"><b>closeweb</b>  </a></td><td class="numi">1</td><td>1678876630501</td><td class="numi">0</td></tr>
+<tr><th colspan="5">Regression1 &#8212; skipped</th></tr>
+<tr class="skippedodd"><td>Login_Test</td><td><a href="#m37"><b>validLogin</b>  </a></td><td class="numi">1</td><td>1678876633434</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td>Registration_Test</td><td><a href="#m38"><b>invalidCase01</b>  </a></td><td class="numi">1</td><td>1678876627535</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td>Product_Test</td><td><a href="#m39"><b>product_Components_Test1</b>  </a></td><td class="numi">1</td><td>1678876636845</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td>Search_Test</td><td><a href="#m40"><b>search_Test1</b>  </a></td><td class="numi">1</td><td>1678876638844</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td>Information_Test</td><td><a href="#m41"><b>fillIn_withoutPhone_Information_Form</b>  </a></td><td class="numi">1</td><td>1678876631942</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td>Registration_Test</td><td><a href="#m42"><b>validCase</b>  </a></td><td class="numi">1</td><td>1678876627542</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td>Search_Test</td><td><a href="#m43"><b>search_Test2</b>  </a></td><td class="numi">1</td><td>1678876638846</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td>ConfirmShipping_Test</td><td><a href="#m44"><b>fillIn_All_Information_Form</b>  </a></td><td class="numi">1</td><td>1678876630500</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="2">Cart_Test</td><td><a href="#m45"><b>emptyCartComponents</b>  </a></td><td class="numi">1</td><td>1678876629083</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m46"><b>afterAddToCart_Test1</b>  </a></td><td class="numi">1</td><td>1678876629086</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td>Information_Test</td><td><a href="#m47"><b>fillIn_All_Information_Form</b>  </a></td><td class="numi">1</td><td>1678876631939</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td>Login_Test</td><td><a href="#m48"><b>invalidLogin1</b>  </a></td><td class="numi">1</td><td>1678876633431</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td>NavigationBar_Test</td><td><a href="#m49"><b>item4_notebook</b>  </a></td><td class="numi">1</td><td>1678876635020</td><td class="numi">0</td></tr>
 </table>
 <h1>Regression1</h1>
-<h2 id="m1">Login_Test:validLogin</h2>
+<h2 id="m1">Login_Test:openLoginPage</h2>
 <div>
-<div class="stacktrace">java.lang.AssertionError: expected [https://mofkera.com/account] but found [https://mofkera.com/challenge]
-	at Login_Test.validLogin(Login_Test.java:31)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 28 stack frames</div>
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">Login_Test:invalidLogin1</h2>
-<div>
-<div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#customer_login &gt; div.pt-base-color &gt; div &gt; ul &gt; li&quot;}
-  (Session info: chrome=110.0.5481.180)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50595/devtools/browser/5d4ebbea-f70e-4a34-8c72-8517bc9d9549
 Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [368dd67f58927573acfaaf10ddaff41c, findElement {using=css selector, value=#customer_login &gt; div.pt-base-color &gt; div &gt; ul &gt; li}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.180, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59529}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59529/devtoo..., se:cdpVersion: 110.0.5481.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 368dd67f58927573acfaaf10ddaff41c
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at Login_Test.invalidLogin1(Login_Test.java:43)
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at Login_Test.openLoginPage(Login_Test.java:18)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 25 stack frames</div>
+... Removed 26 stack frames</div>
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">NavigationBar_Test:item4_notebook</h2>
+<h2 id="m2">Registration_Test:openBrowser</h2>
 <div>
-<div class="stacktrace">java.lang.AssertionError: expected [Note Books] but found [TODO RAMADAN BOX]
-	at NavigationBar_Test.item4_notebook(NavigationBar_Test.java:58)
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50530/devtools/browser/51f9f351-e2f7-4741-b032-c760cd52a3d9
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at Registration_Test.openBrowser(Registration_Test.java:17)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 28 stack frames</div>
+... Removed 26 stack frames</div>
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">Registration_Test:invalidCase01</h2>
+<h2 id="m3">ConfirmShipping_Test:openLoginPage</h2>
 <div>
-<div class="stacktrace">java.lang.AssertionError: expected [https://mofkera.com/account/register] but found [https://mofkera.com/challenge]
-	at Registration_Test.invalidCase01(Registration_Test.java:44)
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50563/devtools/browser/f0b19950-0023-48f3-93ed-b93b090c650e
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at ConfirmShipping_Test.openLoginPage(ConfirmShipping_Test.java:23)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 28 stack frames</div>
+... Removed 26 stack frames</div>
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m5">Information_Test:fillIn_All_Information_Form</h2>
+<h2 id="m4">Information_Test:openLoginPage</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50579/devtools/browser/7f9ad71e-34a7-42cf-9728-a26c21040ab7
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at Information_Test.openLoginPage(Information_Test.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m6">Product_Test:product_Components_Test1</h2>
+<h2 id="m5">Product_Test:openLoginPage</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50630/devtools/browser/595c64c3-07e3-4519-a255-56f7705b52a2
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at Product_Test.openLoginPage(Product_Test.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m7">Cart_Test:afterAddToCart_Test1</h2>
+<h2 id="m6">Cart_Test:openCartPage</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50547/devtools/browser/8bc7c6bf-9206-4abb-9159-be95c5336864
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at Cart_Test.openCartPage(Cart_Test.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m8">ConfirmShipping_Test:fillIn_All_Information_Form</h2>
+<h2 id="m7">NavigationBar_Test:openLoginPage</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50612/devtools/browser/7f4508a6-11bb-48f5-a8ba-2293ac85d4f7
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at NavigationBar_Test.openLoginPage(NavigationBar_Test.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m9">Information_Test:fillIn_withoutPhone_Information_Form</h2>
+<h2 id="m8">Search_Test:openLoginPage</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50647/devtools/browser/d89bbf14-0ce8-4959-8b83-21c8a91ab9ba
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at Search_Test.openLoginPage(Search_Test.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m10">Registration_Test:validCase</h2>
+<h2 id="m9">Registration_Test:closeBrowser</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m11">Cart_Test:emptyCartComponents</h2>
+<h2 id="m10">Information_Test:openLoginPage</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m12">Search_Test:search_Test1</h2>
+<h2 id="m11">Search_Test:closeWeb</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m13">Search_Test:search_Test2</h2>
+<h2 id="m12">Login_Test:closeWebPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">Information_Test:closeBrowser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">Registration_Test:closeBrowser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">Cart_Test:openCartPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">Search_Test:closeWeb</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">Search_Test:openLoginPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">Registration_Test:openBrowser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">Cart_Test:closeBrowser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">Cart_Test:closeBrowser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">NavigationBar_Test:closeWeb</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">Login_Test:openLoginPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">Login_Test:closeWebPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">ConfirmShipping_Test:closeweb</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">Information_Test:closeBrowser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">Product_Test:closeBrowser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">ConfirmShipping_Test:fillIn_All_Information_Form</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50563/devtools/browser/f0b19950-0023-48f3-93ed-b93b090c650e
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at ConfirmShipping_Test.openLoginPage(ConfirmShipping_Test.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">Cart_Test:emptyCartComponents</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50547/devtools/browser/8bc7c6bf-9206-4abb-9159-be95c5336864
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at Cart_Test.openCartPage(Cart_Test.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">Login_Test:validLogin</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50595/devtools/browser/5d4ebbea-f70e-4a34-8c72-8517bc9d9549
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at Login_Test.openLoginPage(Login_Test.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">Cart_Test:afterAddToCart_Test1</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50547/devtools/browser/8bc7c6bf-9206-4abb-9159-be95c5336864
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at Cart_Test.openCartPage(Cart_Test.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">Registration_Test:invalidCase01</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50530/devtools/browser/51f9f351-e2f7-4741-b032-c760cd52a3d9
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at Registration_Test.openBrowser(Registration_Test.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">Product_Test:product_Components_Test1</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50630/devtools/browser/595c64c3-07e3-4519-a255-56f7705b52a2
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at Product_Test.openLoginPage(Product_Test.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">Information_Test:fillIn_All_Information_Form</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50579/devtools/browser/7f9ad71e-34a7-42cf-9728-a26c21040ab7
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at Information_Test.openLoginPage(Information_Test.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">Search_Test:search_Test1</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50647/devtools/browser/d89bbf14-0ce8-4959-8b83-21c8a91ab9ba
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at Search_Test.openLoginPage(Search_Test.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">Information_Test:fillIn_withoutPhone_Information_Form</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50579/devtools/browser/7f9ad71e-34a7-42cf-9728-a26c21040ab7
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at Information_Test.openLoginPage(Information_Test.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">Registration_Test:validCase</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50530/devtools/browser/51f9f351-e2f7-4741-b032-c760cd52a3d9
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at Registration_Test.openBrowser(Registration_Test.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">Login_Test:invalidLogin1</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50595/devtools/browser/5d4ebbea-f70e-4a34-8c72-8517bc9d9549
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at Login_Test.openLoginPage(Login_Test.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">NavigationBar_Test:item4_notebook</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50612/devtools/browser/7f4508a6-11bb-48f5-a8ba-2293ac85d4f7
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at NavigationBar_Test.openLoginPage(NavigationBar_Test.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">Search_Test:search_Test2</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50647/devtools/browser/d89bbf14-0ce8-4959-8b83-21c8a91ab9ba
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
+	at Search_Test.openLoginPage(Search_Test.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
