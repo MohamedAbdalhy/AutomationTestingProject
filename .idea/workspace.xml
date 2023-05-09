@@ -6,17 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0f685c1b-b3fa-4661-9964-d911b2f55548" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Cart_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Cart_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ConfirmShipping_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ConfirmShipping_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Information_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Information_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Login_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Login_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NavigationBar_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NavigationBar_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Product_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Product_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Registration_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Registration_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Search_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Search_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Suite1/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite1/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,52 +40,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Testing carrer/ITI/Auto Project/AutomationTestingProject&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/user/Desktop/Testing carrer/ITI/Auto Project/AutomationTestingProject",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.Information_Test.fillIn_withoutPhone_Information_Form">
-    <configuration name="C:/Users/user/Desktop/Testing carrer/ITI/Auto Project/AutomationTestingProject/Demo.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationTestingProject" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Demo.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners>
-        <listener class="org.testng.reporters.EmailableReporter" />
-        <listener class="org.testng.reporters.FailedReporter" />
-      </listeners>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Cart_Test.emptyCartComponents" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationTestingProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Cart_Test" />
-      <option name="METHOD_NAME" value="emptyCartComponents" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="TestNG.Product_Test.product_Components_Test1">
     <configuration name="Information_Test.fillIn_All_Information_Form" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTestingProject" />
       <option name="PACKAGE_NAME" value="" />
@@ -119,11 +76,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Search_Test.search_Test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Login_Test.invalidLogin4" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTestingProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Search_Test" />
-      <option name="METHOD_NAME" value="search_Test1" />
+      <option name="MAIN_CLASS_NAME" value="Login_Test" />
+      <option name="METHOD_NAME" value="invalidLogin4" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login_Test.moj" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationTestingProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Login_Test" />
+      <option name="METHOD_NAME" value="moj" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Product_Test.product_Components_Test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationTestingProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Product_Test" />
+      <option name="METHOD_NAME" value="product_Components_Test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -132,19 +113,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.Cart_Test.emptyCartComponents" />
+      <item itemvalue="TestNG.Login_Test.invalidLogin4" />
+      <item itemvalue="TestNG.Product_Test.product_Components_Test1" />
+      <item itemvalue="TestNG.Login_Test.moj" />
       <item itemvalue="TestNG.Information_Test.fillIn_withoutPhone_Information_Form" />
-      <item itemvalue="TestNG.Search_Test.search_Test1" />
-      <item itemvalue="TestNG.C:/Users/user/Desktop/Testing carrer/ITI/Auto Project/AutomationTestingProject/Demo.xml" />
       <item itemvalue="TestNG.Information_Test.fillIn_All_Information_Form" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Product_Test.product_Components_Test1" />
+        <item itemvalue="TestNG.Login_Test.invalidLogin4" />
+        <item itemvalue="TestNG.Login_Test.moj" />
         <item itemvalue="TestNG.Information_Test.fillIn_withoutPhone_Information_Form" />
         <item itemvalue="TestNG.Information_Test.fillIn_All_Information_Form" />
-        <item itemvalue="TestNG.Search_Test.search_Test1" />
-        <item itemvalue="TestNG.C:/Users/user/Desktop/Testing carrer/ITI/Auto Project/AutomationTestingProject/Demo.xml" />
-        <item itemvalue="TestNG.Cart_Test.emptyCartComponents" />
       </list>
     </recent_temporary>
   </component>
